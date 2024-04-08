@@ -1,0 +1,13 @@
+{
+  "@context": [{
+    "sta": "https://schemas.opengis.org/sta/def/core#",
+    "com": "https://schemas.opengis.org/commons/def/core#",
+    "sosa": "https://www.w3.org/TR/vocab-ssn/#",
+    "rel": "http://www.iana.org/assignments/relation/",
+    "orel": "http://www.opengis.net/def/rel/"
+  },
+    {
+     "serverSettings": "sta:serverSettings",
+     "conformance": "orel:ogc/1.0/conformance"}]
+
+}

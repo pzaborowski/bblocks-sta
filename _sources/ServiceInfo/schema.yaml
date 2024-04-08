@@ -1,0 +1,22 @@
+"$schema": "http://json-schema.org/draft-04/schema#"
+title: Root path service information
+description: "Schema for Sensor things API 1.3 Root path"
+type: object
+properties:
+  serverSettings:
+    type: object
+    properties:
+      conformance:
+        type: array
+        items:
+          type: string
+          #this shall be only an URI knonw to given vocabulary
+  value:
+    type: array
+    items:
+      type: object
+      properties:
+        name:
+          type: string
+        url:
+          type: string

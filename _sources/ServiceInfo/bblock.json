@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/master/ogc/bblocks/metadata-schema.yaml",
+  "name": "SensorThings API Root ",
+  "abstract": "Representation of the 'Usage 1: no resource path' that includes general information about the service. In apetular it requires conformance declaration and all the subsequent links to access all services.",
+  "status": "under-development",
+  "dateTimeAddition": "2024-04-05T00:00:00Z",
+  "itemClass": "schema",
+  "register": "ogc-building-block-register",
+  "version": "0.1",
+  "dateOfLastChange": "2024-04-05",
+  "link": "https://github.com/opengeospatial/bblock-sta",
+  "sources": [
+    {
+      "title": "OGC SensorThings API Part 1: Sensing Version 1.1",
+      "link": "https://docs.ogc.org/is/18-088/18-088.html"
+    }
+  ],
+  "maturity": "mature",
+  "scope": "unstable",
+  "tags": ["templates"]
+}

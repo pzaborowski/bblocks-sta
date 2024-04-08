@@ -1,0 +1,5 @@
+- title: Example root path service information from STA specification.
+  base-uri: http://w3id.org/ogcincubator/bblocks-sta/
+  snippets:
+    - language: json
+      ref: examples/rootInfo.json

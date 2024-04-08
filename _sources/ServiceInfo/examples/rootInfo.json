@@ -1,0 +1,60 @@
+{
+ "serverSettings": {
+        "conformance": [
+            "http://www.opengis.net/spec/iot_sensing/1.1/req/datamodel",
+            "http://www.opengis.net/spec/iot_sensing/1.1/req/resource-path/resource-path-to-entities",
+            "http://www.opengis.net/spec/iot_sensing/1.1/req/request-data",
+            "http://www.opengis.net/spec/iot_sensing/1.1/req/create-update-delete/create-entity",
+            "http://www.opengis.net/spec/iot_sensing/1.1/req/create-update-delete/link-to-existing-entities",
+            "http://www.opengis.net/spec/iot_sensing/1.1/req/create-update-delete/deep-insert",
+            "http://www.opengis.net/spec/iot_sensing/1.1/req/create-update-delete/deep-insert-status-code",
+            "http://www.opengis.net/spec/iot_sensing/1.1/req/create-update-delete/update-entity",
+            "http://www.opengis.net/spec/iot_sensing/1.1/req/create-update-delete/delete-entity",
+            "http://www.opengis.net/spec/iot_sensing/1.1/req/create-update-delete/historical-location-auto-creation",
+            "http://www.opengis.net/spec/iot_sensing/1.1/req/create-observations-via-mqtt/observations-creation",
+            "http://www.opengis.net/spec/iot_sensing/1.1/req/receive-updates-via-mqtt/receive-updates"
+        ],
+        "http://www.opengis.net/spec/iot_sensing/1.1/req/receive-updates-via-mqtt/receive-updates": {
+          "endpoints": [
+            "mqtt://server.example.com:1833",
+            "ws://server.example.com/sensorThings"
+          ]
+        },
+        "http://www.opengis.net/spec/iot_sensing/1.1/req/create-observations-via-mqtt/observations-creation": {
+          "endpoints": [
+            "mqtts://server.example.com:8883",
+            "wss://server.example.com:443/sensorThings"
+          ]
+        }
+      },
+      "value": [
+        {
+          "name": "Things",
+          "url": "http://example.org/v1.1/Things"
+        },
+        {
+          "name": "Locations",
+          "url": "http://example.org/v1.1/Locations"
+        },
+        {
+          "name": "Datastreams",
+          "url": "http://example.org/v1.1/Datastreams"
+        },
+        {
+          "name": "Sensors",
+          "url": "http://example.org/v1.1/Sensors"
+        },
+        {
+          "name": "Observations",
+          "url": "http://example.org/v1.1/Observations"
+        },
+        {
+          "name": "ObservedProperties",
+          "url": "http://example.org/v1.1/ObservedProperties"
+        },
+        {
+          "name": "FeaturesOfInterest",
+          "url": "http://example.org/v1.1/FeaturesOfInterest"
+        }
+      ]
+}
